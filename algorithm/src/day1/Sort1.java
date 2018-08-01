@@ -58,9 +58,9 @@ public class Sort1 {
 
 	public static void main(String[] args) {
 		Sort1 st = new Sort1();
-		while (true) {
+//		while (true) {
 			st.menu();
-		}
+//		}
 	}
 
 }
