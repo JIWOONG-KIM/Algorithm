@@ -2,7 +2,7 @@ package day1;
 
 import java.util.Scanner;
 
-public class Pibonacci {
+public class Pibonacci {// 백준알고리즘 시간초과실패 ㅠㅠ
 	int cnt0, cnt1;
 	Scanner sc;
 
@@ -23,8 +23,7 @@ public class Pibonacci {
 	public void menu() {
 		sc = new Scanner(System.in);
 		int n = sc.nextInt();
-		int i = 0;
-		while (i < n) {
+		for (int i = 0; i < n; i++) {
 			int n2 = sc.nextInt();
 			if (n2 <= 40) {
 				getPibonacci(n);
@@ -32,7 +31,6 @@ public class Pibonacci {
 				cnt0 = 0;
 				cnt1 = 0;
 			}
-			i++;
 		}
 	}
 
